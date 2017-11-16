@@ -2,7 +2,7 @@ using UnityEngine;
 
 // Basic flight controller designed to demonstrate Gimble Locking in 3D space.
 // This works by calculating rotation based on Euler angles instead of other methods.
-public class FlightController : MonoBehaviour
+public class NavigationController : MonoBehaviour
 {
     public float speed;
     public float rotationSpeed;
